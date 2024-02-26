@@ -1,9 +1,8 @@
+import useRoutesElement from './routes/useRoutesElement'
+
 function App() {
-    return (
-        <>
-            <h1 className='text-red-600'>Hello</h1>
-        </>
-    )
+    const elementRoutes = useRoutesElement()
+    return <main>{elementRoutes}</main>
 }
 
 export default App
